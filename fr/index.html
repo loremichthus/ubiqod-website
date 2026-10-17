@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ubiqod by Taqt · Des données terrain fiables pour vos logiciels et votre IA</title>
+<meta name="description" content="Captez ce qui se passe sur site avec un QR code, SafeQod ou TaqtOne. Ubiqod vérifie chaque donnée et l’envoie à vos logiciels et à votre IA en temps réel.">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="alternate" hreflang="en" href="../">
+<link rel="alternate" hreflang="fr" href="../fr/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.3 7.5 9.5 4.4-1.2 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m8.8 12 2.2 2.2 4.3-4.4"/></g></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M13 2.5 4.5 13.5H12l-1 8 8.5-11H12l1-8Z"/></symbol>
+  <symbol id="i-plug" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v4M15 3v4M7 7h10v4a5 5 0 0 1-10 0V7ZM12 16v5"/></g></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.3 3-5.3 6-5.3s5.4 2 6 5.3"/><path d="M15.5 4.9a3.2 3.2 0 0 1 0 6.2M18 14.9c1.6.6 2.7 2.4 3 5.1"/></g></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-7.5 7.5a2.1 2.1 0 0 1-3-3L18 10l-1.3-1.3a4 4 0 0 1-5-5L13 2.5l-2 2"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 20V4M4 20h16"/><path d="M8 16v-4M12 16V8M16 16v-6M20 16v-9"/></g></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><path d="M12 7.5 13.6 10.4 16.5 12l-2.9 1.6L12 16.5l-1.6-2.9L7.5 12l2.9-1.6L12 7.5Z"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+  <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 14.5a4.5 4.5 0 0 0 7 0M9 9.5v.01M15 9.5v.01"/></g></symbol>
+</svg>
+
+<header class="header">
+  <div class="wrap nav">
+    <a href="../fr/" class="logo" aria-label="Ubiqod by Taqt, accueil"><img class="logo-img" src="../assets/ubiqod-logo.png" alt="Ubiqod" width="1321" height="336"><span class="logo-by">by Taqt</span></a>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="#capture">Produit</a></li>
+      <li><a href="#use-cases">Cas d’usage</a></li>
+      <li><a href="#integrations">Intégrations</a></li>
+      <li><a href="#partners">Partenaires</a></li>
+      <li><a href="../fr/tarifs/">Tarifs</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="nav-aux" href="../" hreflang="en" lang="en">EN</a>
+      <a class="nav-aux" href="https://app.ubiqod.com/">Se connecter</a>
+      <a class="btn btn-primary btn-sm" href="https://www.taqt.com/fr/contact">Réserver une démo</a>
+      <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks"><svg><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Ubiqod by Taqt</span>
+      <h1>Des données terrain fiables, directement dans vos <span class="grad-text">logiciels et votre&nbsp;IA.</span></h1>
+      <p class="sub">Captez ce qui se passe sur site avec un QR code, SafeQod ou TaqtOne. Ubiqod vérifie chaque donnée et l’envoie à vos outils en temps réel.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://www.taqt.com/fr/contact">Réserver une démo <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-secondary btn-trial" href="https://app.ubiqod.com/auth/signup">Essai gratuit<small>100 crédits offerts</small></a>
+      </div>
+
+      <div class="flow" role="img" aria-label="QR codes, SafeQod et TaqtOne envoient leurs données à Ubiqod, qui les transmet à votre SIRH, votre GMAO, vos outils de BI et votre IA.">
+        <div class="flow-col">
+          <div class="src"><span class="thumb"><img src="../assets/products/qr.png" alt=""></span><div><b>QR code</b><span>Imprimé, scanné</span></div></div>
+          <div class="src"><span class="thumb"><img src="../assets/products/safeqod.png" alt=""></span><div><b>SafeQod</b><span>QR code sécurisé</span></div></div>
+          <div class="src"><span class="thumb"><img src="../assets/products/taqtone-3d.avif" alt=""></span><div><b>TaqtOne</b><span>Borne à badge</span></div></div>
+        </div>
+        <svg class="wire" viewBox="0 0 100 300" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="gL" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100" y2="0"><stop offset="0" stop-color="#2134fe"/><stop offset="1" stop-color="#fe1e5d"/></linearGradient></defs>
+          <path class="base" d="M0 50C50 50 50 150 100 150M0 150H100M0 250C50 250 50 150 100 150"/>
+          <path class="pulse" stroke="url(#gL)" d="M0 50C50 50 50 150 100 150M0 150H100M0 250C50 250 50 150 100 150"/>
+        </svg>
+        <div class="flow-arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></div>
+        <div class="hub">
+          <img class="hub-logo" src="../assets/ubiqod-logo-white.png" alt="Ubiqod" width="1321" height="336">
+          <ul>
+            <li><svg><use href="#i-check"/></svg>Vérifiée</li>
+            <li><svg><use href="#i-check"/></svg>Horodatée</li>
+            <li><svg><use href="#i-check"/></svg>Temps réel</li>
+          </ul>
+        </div>
+        <div class="flow-arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></div>
+        <svg class="wire" viewBox="0 0 100 400" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="gR" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100" y2="0"><stop offset="0" stop-color="#2134fe"/><stop offset="1" stop-color="#fe1e5d"/></linearGradient></defs>
+          <path class="base" d="M0 200C50 200 50 50 100 50M0 200C50 200 50 150 100 150M0 200C50 200 50 250 100 250M0 200C50 200 50 350 100 350"/>
+          <path class="pulse" stroke="url(#gR)" d="M0 200C50 200 50 50 100 50M0 200C50 200 50 150 100 150M0 200C50 200 50 250 100 250M0 200C50 200 50 350 100 350"/>
+        </svg>
+        <div class="flow-col flow-dests">
+          <div class="dest"><span class="ic ic-blue"><svg><use href="#i-users"/></svg></span>SIRH &amp; paie</div>
+          <div class="dest"><span class="ic ic-violet"><svg><use href="#i-wrench"/></svg></span>GMAO / CAFM</div>
+          <div class="dest"><span class="ic ic-green"><svg><use href="#i-chart"/></svg></span>BI &amp; tableaux de bord</div>
+          <div class="dest dest-ai"><span class="ic ic-grad"><svg><use href="#i-spark"/></svg></span>IA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHIFFRES (source : taqt.com) -->
+  <div class="stats">
+    <div class="wrap stats-grid">
+      <div class="stat"><b>20+</b><span>pays</span></div>
+      <div class="stat"><b>60&nbsp;000+</b><span>capteurs sur le terrain</span></div>
+      <div class="stat"><b>200&nbsp;M+</b><span>interactions par an</span></div>
+    </div>
+  </div>
+
+  <!-- BÉNÉFICES -->
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Pourquoi Ubiqod</span>
+        <h2 class="h2">Des données terrain sur lesquelles agir</h2>
+      </div>
+      <div class="cards3">
+        <article class="benefit"><span class="ic ic-blue"><svg><use href="#i-shield"/></svg></span><h3>Fiables</h3><p>Chaque événement prouve qui était où, et quand. Impossible de pointer à distance.</p></article>
+        <article class="benefit"><span class="ic ic-pink"><svg><use href="#i-bolt"/></svg></span><h3>En temps réel</h3><p>Les données arrivent dans vos outils en quelques secondes, pas en fin de mois.</p></article>
+        <article class="benefit"><span class="ic ic-violet"><svg><use href="#i-plug"/></svg></span><h3>Connectées</h3><p>Connecteurs natifs, API et webhooks alimentent vos logiciels et votre IA.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPTATION -->
+  <section class="capture" id="capture">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Captation</span>
+        <h2 class="h2">Trois façons de capter. Une seule plateforme.</h2>
+      </div>
+      <div class="cards3">
+        <article class="prod">
+          <div class="prod-img"><img src="../assets/products/qr.png" alt="Affichette QR code" loading="lazy"></div>
+          <div class="prod-body">
+            <span class="tag tag-gray">Sans matériel</span>
+            <h3>QR code</h3>
+            <p class="pitch">Imprimez, collez, scannez.</p>
+            <p class="best">Idéal pour les avis et les demandes d’intervention.</p>
+            <a class="link" href="https://app.ubiqod.com/auth/signup">Créer un QR code <svg><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prod">
+          <div class="prod-img"><img src="../assets/products/safeqod-3d.avif" alt="Boîtier SafeQod" loading="lazy"></div>
+          <div class="prod-body">
+            <span class="tag tag-pink">Sécurisé</span>
+            <h3>SafeQod</h3>
+            <p class="pitch">Le QR code qu’on ne peut pas copier.</p>
+            <p class="best">Idéal pour la preuve de présence par smartphone.</p>
+            <a class="link" href="https://www.taqt.com/fr/products/safeqod">Découvrir SafeQod <svg><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prod">
+          <div class="prod-img"><img src="../assets/products/taqtone-3d.avif" alt="Borne TaqtOne" loading="lazy"></div>
+          <div class="prod-body">
+            <span class="tag tag-blue">Badge</span>
+            <h3>TaqtOne</h3>
+            <p class="pitch">Un badge suffit, sans téléphone.</p>
+            <p class="best">Idéal pour le pointage et la traçabilité.</p>
+            <a class="link" href="https://www.taqt.com/fr/products/taqtone">Découvrir TaqtOne <svg><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
+      <p class="mix"><b>Combinez-les selon vos sites.</b> Toutes les données arrivent au même endroit.</p>
+    </div>
+  </section>
+
+  <!-- CAS D'USAGE -->
+  <section id="use-cases">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Cas d’usage</span>
+        <h2 class="h2">Ce que les équipes en font</h2>
+      </div>
+      <div class="cards4">
+        <article class="uc"><span class="ic ic-blue"><svg><use href="#i-clock"/></svg></span><h3>Pointage</h3><p>Des heures exactes, directement en paie.</p></article>
+        <article class="uc"><span class="ic ic-pink"><svg><use href="#i-pin"/></svg></span><h3>Preuve de passage</h3><p>Chaque passage prouvé à vos clients.</p></article>
+        <article class="uc"><span class="ic ic-violet"><svg><use href="#i-wrench"/></svg></span><h3>Demandes d’intervention</h3><p>Un scan, et la bonne équipe est prévenue.</p></article>
+        <article class="uc"><span class="ic ic-green"><svg><use href="#i-smile"/></svg></span><h3>Satisfaction client</h3><p>La satisfaction en direct, des alertes immédiates.</p></article>
+      </div>
+      <p class="sectors">Propreté · Facility management · Sûreté · Maintenance · Santé</p>
+    </div>
+  </section>
+
+  <!-- INTÉGRATIONS -->
+  <section id="integrations" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Intégrations</span>
+        <h2 class="h2">Compatible avec les outils que vous utilisez déjà</h2>
+        <p>Et avec n’importe quel logiciel ou modèle d’IA, via notre API et les webhooks.</p>
+      </div>
+      <div class="logos">
+        <div><img src="../assets/logos/zapier.svg" alt="Zapier"></div>
+        <div><img src="../assets/logos/make.svg" alt="Make"></div>
+        <div><img src="../assets/logos/microsoft.png" alt="Microsoft"></div>
+        <div><img src="../assets/logos/google-sheets.png" alt="Google Sheets"></div>
+        <div><img src="../assets/logos/monday.png" alt="monday.com"></div>
+        <div><img src="../assets/logos/lucca.svg" alt="Lucca"></div>
+        <div><img src="../assets/logos/clockify.png" alt="Clockify"></div>
+        <div><img src="../assets/logos/bigquery.png" alt="Google BigQuery"></div>
+      </div>
+      <div class="chips">
+        <span class="chip">Power Automate</span><span class="chip">Flexio</span><span class="chip chip-strong">API &amp; webhooks</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTENAIRES -->
+  <section id="partners" style="padding-top:0">
+    <div class="wrap">
+      <div class="partner">
+        <div>
+          <h3>Éditeur de logiciel&nbsp;? Ajoutez des données terrain fiables à votre produit.</h3>
+          <p>API, marque blanche et accompagnement à l’intégration.</p>
+        </div>
+        <a class="btn btn-primary" href="https://www.taqt.com/fr/partner">Devenir partenaire <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <div class="final">
+    <div class="wrap">
+      <div class="final-box">
+        <h2>Passez à des données terrain fiables.</h2>
+        <div class="ctas">
+          <a class="btn btn-light" href="https://www.taqt.com/fr/contact">Réserver une démo <svg><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="https://app.ubiqod.com/auth/signup">Essai gratuit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <img class="foot-logo" src="../assets/ubiqod-logo-white.png" alt="Ubiqod" width="1321" height="336">
+        <div class="foot-taqt"><span>Un produit</span><img src="../assets/taqt-logo-white.svg" alt="Taqt"></div>
+      </div>
+      <ul class="foot-links">
+        <li><a href="../fr/tarifs/">Tarifs</a></li>
+        <li><a href="https://help.taqt.com/portal/en/kb/ubiqod">Centre d’aide</a></li>
+        <li><a href="https://www.taqt.com/fr/articles">Blog</a></li>
+        <li><a href="https://www.taqt.com/fr/partner">Partenaires</a></li>
+        <li><a href="https://www.taqt.com/fr/contact">Contact</a></li>
+        <li><a href="https://app.ubiqod.com/">Se connecter</a></li>
+      </ul>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Taqt</span>
+      <div><a href="https://www.taqt.com/fr/terms">CGU</a><a href="https://www.taqt.com/fr/legal">Mentions légales</a><a href="https://www.iubenda.com/privacy-policy/50772884">Confidentialité</a><a href="https://www.linkedin.com/company/group-taqt/">LinkedIn</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>
