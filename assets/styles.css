@@ -62,7 +62,7 @@ section{padding:96px 0}
 .burger{display:none;background:none;border:0;padding:8px;margin-right:-8px;cursor:pointer;color:var(--ink)}
 .burger svg{width:26px;height:26px}
 @media(max-width:1023px){
-  .nav-links,.nav-aux{display:none}
+  .nav-links,.nav-aux:not(.nav-lang){display:none}
   .burger{display:block}
   .header.open .nav-links{display:flex;flex-direction:column;gap:0;position:absolute;left:0;right:0;top:72px;background:#fff;border-bottom:1px solid var(--gray-200);padding:8px 16px 16px}
   .header.open .nav-links a{display:block;padding:12px 0;font-size:1.0625rem;border-bottom:1px solid var(--gray-100)}
