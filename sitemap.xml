@@ -2,24 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ubiqod.com/</loc>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.ubiqod.com/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubiqod.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubiqod.com/"/>
   </url>
   <url>
     <loc>https://www.ubiqod.com/fr/</loc>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.ubiqod.com/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubiqod.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubiqod.com/"/>
   </url>
   <url>
     <loc>https://www.ubiqod.com/pricing/</loc>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.ubiqod.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubiqod.com/fr/tarifs/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubiqod.com/pricing/"/>
   </url>
   <url>
     <loc>https://www.ubiqod.com/fr/tarifs/</loc>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.ubiqod.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubiqod.com/fr/tarifs/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubiqod.com/pricing/"/>

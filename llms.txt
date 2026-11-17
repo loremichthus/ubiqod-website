@@ -1,0 +1,31 @@
+# Ubiqod by Taqt
+
+> Ubiqod is the field data platform of Taqt. Teams capture what happens on site with TaqtOne NFC badge terminals, SafeQod secure QR codes (a battery-powered device whose QR code changes at regular intervals and can't be copied) or printed QR codes. Ubiqod verifies and timestamps each event and delivers it in real time to HRIS and payroll, CMMS/CAFM, BI tools and AI, through native connectors, an API and webhooks.
+
+Key facts:
+- Use cases: clock-in/out, proof of presence (traceability), service requests, customer satisfaction.
+- Sectors: cleaning, facility management, security, maintenance, healthcare.
+- Integrations: Zapier, Make, Microsoft Power Automate, Google Sheets, Google BigQuery, monday.com, Lucca, Clockify, plus API and webhooks.
+- QR code pricing: 1 credit per scan, or 1 credit per day (up to 50 scans a day). With a 10,000-credit pack, one credit costs €0.05. 100 free credits at sign-up. TaqtOne and SafeQod: quote from Taqt sales.
+- Included: unlimited users, unlimited workers, unlimited software connections, API access, app generator, online support.
+
+## Ubiqod
+
+- [Home (English)](https://www.ubiqod.com/): capture methods, use cases and integrations
+- [Accueil (français)](https://www.ubiqod.com/fr/): présentation en français
+- [Pricing](https://www.ubiqod.com/pricing/): pay per scan or per day, cost examples and FAQ
+- [Tarifs](https://www.ubiqod.com/fr/tarifs/): tarifs en français
+
+## Use cases (taqt.com)
+
+- [Clock-in / out](https://www.taqt.com/use-cases/clock-in-out)
+- [Proof of presence and traceability](https://www.taqt.com/use-cases/traceability)
+- [Service requests](https://www.taqt.com/use-cases/service-request)
+- [Customer satisfaction](https://www.taqt.com/use-cases/satisfaction)
+
+## Optional
+
+- [Help center](https://help.taqt.com/portal/en/kb/ubiqod): setup guides, connectors and FAQ
+- [API documentation](https://api.ubiqod.com/documentation/)
+- [Integration marketplace](https://partners.taqt.com/en)
+- [Taqt](https://www.taqt.com/): company behind Ubiqod, SafeQod and TaqtOne

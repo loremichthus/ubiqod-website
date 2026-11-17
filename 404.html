@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · Ubiqod by Taqt</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<script>
+  // Anciennes URL encore liées depuis d'autres sites : on renvoie le visiteur vers la bonne page
+  (function () {
+    var p = location.pathname, map = [
+      [/^\/docs(\/|$)/, "https://help.taqt.com/portal/en/kb/ubiqod"],
+      [/^\/create-your-first-check-in-qr-code\/?$/, "https://www.taqt.com/use-cases/clock-in-out"],
+      [/^\/create-and-track-task-list-ubiqod\/?$/, "https://www.taqt.com/use-cases/traceability"],
+      [/^\/customer-feedback-qr-codes\/?$/, "https://www.taqt.com/use-cases/satisfaction"],
+      [/^\/data-on-site-google-sheets\/?$/, "https://help.taqt.com/portal/en/kb/ubiqod/data-management/data-connectors/google-sheets"]
+    ];
+    for (var i = 0; i < map.length; i++) if (map[i][0].test(p)) { location.replace(map[i][1]); return; }
+  })();
+</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+<header class="header">
+  <div class="wrap nav">
+    <a href="/" class="logo" aria-label="Ubiqod by Taqt, home"><img class="logo-img" src="/assets/ubiqod-logo.png" alt="Ubiqod" width="1321" height="336"><span class="logo-by">by Taqt</span></a>
+  </div>
+</header>
+<main>
+  <section class="hero-sm notfound">
+    <div class="wrap">
+      <span class="eyebrow">404</span>
+      <h1>This page doesn’t exist <span class="grad-text">(anymore).</span></h1>
+      <p class="sub">The link may be outdated. Here are the most useful pages. <span lang="fr">Cette page n’existe pas ou plus.</span></p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="/">Ubiqod home <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-secondary" href="/fr/" lang="fr">Accueil en français</a>
+      </div>
+      <p class="free"><a href="/pricing/">Pricing</a> · <a href="/fr/tarifs/" lang="fr">Tarifs</a> · <a href="https://help.taqt.com/portal/en/kb/ubiqod">Help center</a> · <a href="https://www.taqt.com/contact">Contact</a></p>
+    </div>
+  </section>
+</main>
+</body>
+</html>
